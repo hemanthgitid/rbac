@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +68,122 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ -->
+
+# Role-Based Access Control (RBAC) - Frontend Project
+
+This repository contains the **Role-Based Access Control (RBAC)** system, a frontend-only application demonstrating user and admin role-based access. This project highlights the usage of **React's `useState` and `useEffect` hooks** to manage state and lifecycle behaviors effectively.
+
+---
+
+## About the Project
+
+The **RBAC Frontend Project** is designed to showcase role-based access functionality in React, focusing on modern development practices without using Context API or protected routes. It emphasizes a simple yet efficient approach to dynamic UI rendering based on user roles.
+
+---
+
+## Features
+
+- **Admin Role**:
+  - Access to admin-specific dashboard and actions.
+  
+- **User Role**:
+  - Access to user-specific pages and actions.
+  
+- **General Features**:
+  - Simple login functionality to simulate role-based access.
+  - Dynamic UI rendering based on user roles.
+
+---
+
+## Tech Stack
+
+- **Frontend**: React.js
+- **State Management**: React's `useState` and `useEffect` hooks
+- **Styling**: CSS3
+- **Routing**: React Router DOM (basic navigation)
+
+---
+
+### Prerequisites
+This project involves React.js for the frontend and Express.js for the backend. Ensure you have the following installed before starting:
+
+Node.js:
+Required for managing dependencies and running the development servers for both React and Express.
+👉 Download Node.js here.
+
+npm or yarn:
+Package managers for installing dependencies. npm comes bundled with Node.js.
+
+React.js:
+The frontend is built using React.js. You should have a basic understanding of React components, state management, and hooks.
+
+Express.js:
+Used for creating the backend API. Familiarity with routing and middleware is recommended.
+
+Code Editor:
+Use a modern code editor like Visual Studio Code (VS Code) for better development experience.
+
+Database:
+While this project focuses on the frontend and backend, if you choose to implement data persistence, you may use MongoDB.
+
+
+## Installation
+
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/hemanthgitid/rbac.git
+   
+   cd rbac
+
+2. ### Set Up Frontend 
+
+    ### Navigate to the client folder:
+     cd Client
+
+    ### Install the required dependencies:
+     npm install
+
+    ### Start the React development server:
+     npm start
+3. ### Set Up Backend 
+
+    ### Navigate to the Server folder:
+     cd Server
+
+    ### Install the required dependencies:
+     npm install
+
+    ### Start the React development server:
+     npm start
+ 
+4. ### Test the Application
+
+1.   Open **http://localhost:3000** to interact with the frontend.
+2.   Ensure the backend is running at **http://localhost:5000** for API functionality.
+
+### Folder Structure
+
+rbac-frontend/
+├── client/                           # Frontend code
+│   ├── public/                       # Static assets
+│   │   └── index.html                # Main HTML file
+│   |── src/                          # Source code
+│       ├── Assets/                   # Images, fonts, and other assets
+│       ├── Components/               # Reusable UI components
+│       ├── Pages/                    # Role-specific pages (User/Admin)
+│       ├── Styles/                   # CSS or SCSS files
+│       ├── App.js                    # Application entry point
+│       └── index.js                  # ReactDOM render file
+├── server/                           # Backend code
+│   ├── Controllers/                  # Handle business logic
+│   ├── Models/                       # Database schemas/models
+│   ├── Routes/                       # API endpoints
+│   ├── Utils/                        # Helper functions or middleware
+│   ├── .env                          # Environment variables
+│   ├── package.json                  # Backend dependencies
+│   ├── server.js                     # Backend entry point
+│   └── README.md                     # Instructions for running the server
+├── README.md                         # Project overview
+
