@@ -1,0 +1,23 @@
+.outerupdate{
+    /* border: 2px solid red; */
+    border: 1px solid grey;
+    max-width: 350px;
+    min-height: 300px;
+    padding: 1em;
+    margin: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 17px;
+    line-height: 30px;
+    /* min-height: 400px; */
+}
+.outerupdate div select{
+    min-width: 170px;
+}
+
+.outerupdate div input[type="text"],input[type="email"],input[type="number"],select:focus{
+    outline: none;
+    /* cursor: pointer; */
+}

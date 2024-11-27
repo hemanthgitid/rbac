@@ -1,0 +1,56 @@
+.overallnav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    width: 1255px;
+    color: white;
+    /* border: 2px solid rgb(212, 14, 14); */
+    height: 80px;
+    /* width: 100%; */
+}
+.overallnav div{
+    /* border: 2px solid rgb(25, 11, 11); */
+    display: flex;
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+.overallnav div img{
+    margin-top: 10px;
+}
+.tagnamehome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 220px;
+    /* border: 2px solid red; */
+}
+.overallnav nav ul{
+    min-width: 900px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+.overallnav nav li{
+    list-style-type: none;
+    font-size: 15px;
+}
+/* .overallnav div span Link{
+
+} */
+
+.link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .sd{
+    /* display: flex; */
+    color: white;
+    text-decoration: none;
+  }

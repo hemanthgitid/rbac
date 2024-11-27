@@ -1,0 +1,13 @@
+.outertab{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+.innertable thead,tbody,tr,td{
+    padding: 1em;
+    /* border: 2px solid red; */
+}
+table,thead,tbody,td{
+    border-collapse: collapse;
+    border: 1px solid grey;
+}

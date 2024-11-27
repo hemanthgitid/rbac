@@ -1,0 +1,181 @@
+.overslide{
+    position: relative;
+    display: flex;
+    top: 50px;
+    left: 50px;
+    padding: 2em;
+    justify-content: center;
+    align-items: center;
+    max-width: 1100px;
+    /* overflow: hidden; */
+    min-height: 500px;
+    /* border: 1px solid grey; */
+    box-shadow: 0px 1px 8px -3px;
+}
+
+.twodiv1{
+  z-index: 1;
+}
+
+.twodiv2,.twodiv1{
+  position: absolute;
+  display: flex;
+  min-width: 1100px;
+  justify-content: space-between;
+  min-height: 500px;
+  /* border: 2px solid rgb(244, 233, 233); */
+  align-items: center;
+}
+
+.for form,.for2 form{
+  display: flex;
+  min-width: 400px;
+   padding: 2em;
+   min-height: 450px;
+   flex-direction: column;
+   box-sizing: border-box;
+   align-items: center;
+   justify-content: space-around;
+}
+  
+  .for2 form{
+  }
+  
+  .for h1,.for2 h1{
+    font-size: 40px;
+    margin-bottom: 1.5em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+  }
+  .for input, .for2 input{
+    min-width: 250px; 
+    margin-bottom: 1em;
+    border: none;
+    text-indent: 10px;
+    font-size: 15px;
+  }
+  
+  .for input:focus, .for2 input:focus{
+    border: none;
+    outline: none;
+  }
+  
+  
+.con,.con2{
+  max-width: 500px;
+  max-height: 350px;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 70px;
+  z-index: 1;
+  /* border: 2px solid rgb(61, 255, 3); */
+  color: white;
+  display: flex;
+  flex-direction: column; 
+}
+
+  .con div,.con2 div{
+    min-width: 400px;
+    padding: 1em;
+    /* align-items: center; */
+    text-align: center;
+    
+  }
+  .con div h1,.con2 div h1{
+    font-size: 40px;
+    /* border: 2px solid white; */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       /* font-weight: 100; */
+  }
+  .con div p, .con2 div p{
+    font-size: 20px;
+  }
+  .for button,.for2 button,
+  .con button, .con2 button{ 
+    min-width: 200px;
+    padding: 0.3em;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .con button, .con2 button{
+    border: 1px solid white;
+    background-color:transparent ;
+    color: white;
+
+  }
+.con2 div{
+}
+.for form span,.for2 form span{
+    /* border: 2px solid red; */
+    padding-left: 9em;
+    font-size: 12px;
+    align-self: start;
+  }
+  
+.outdiv{
+  /* border: 2px solid rgb(39, 19, 19); */
+  position: absolute;
+  background-image: linear-gradient(to right,#ff414d,#f23f72,#e93083);
+  right: 0;
+  z-index: -1;
+  border-radius:10px ;
+  min-width: 500px;
+  min-height: 460px;
+  transition: transform 0.4s ease-in-out;
+}
+
+
+.moveright{
+  transform: translateX(-125%);
+}
+
+
+.dynamicStyle1N{
+  opacity: 0;
+  display: none;
+  transition: all 0s ease-in-out;
+}
+.dynamicStyle1F{
+  opacity: 1;
+  display: flex;
+  transition: all 0s ease-in-out;
+}
+
+.dynamicStyle2N{
+  opacity: 0;
+  display: none;
+  transition: all 0s ease-in-out;
+}
+.dynamicStyle2F{
+  opacity: 1;
+  display: flex;
+  transition: all 0s ease-in-out;
+}
+
+.drop{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-right: 7em;
+  /* border: 2px solid red; */
+  margin-bottom: 1em;
+}
+
+.drop .lis{
+  cursor: pointer;
+ border: none;
+  text-align: center;
+  min-width: 200px;
+}
+
+.drop .lis:focus{
+  outline: none;
+  border: none;
+}
+
+.move{
+  
+  transform: translateX(-7%);
+  }
+  

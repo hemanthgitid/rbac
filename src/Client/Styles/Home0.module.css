@@ -1,0 +1,44 @@
+
+.overall {
+    min-width: 1260px;
+    /* border: 2px solid red; */
+    min-height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url('../Assets/home-back.jpg');
+  }
+  
+
+  .centerdiv {
+    position: absolute;
+    font-size: 20px;
+    
+    text-align: center;
+    padding: 1em;
+    min-height:300px;
+    display: flex;
+flex-direction: column;
+justify-content: space-around;
+    font-weight: 900;
+    /* line-height: 80px; */
+    /* border: 2px solid red; */
+    color: white;
+    top: 180px;
+    left:300px;
+  }
+  .centerdiv button{
+    font-size: 13px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    /* border: 2px solid red; */
+    letter-spacing: 3px;
+    background-color: rgb(48, 183, 183);
+    min-width: 150px;
+    min-height: 40px;
+  }
+  
