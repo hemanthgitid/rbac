@@ -109,8 +109,7 @@ The **RBAC Frontend Project** is designed to showcase role-based access function
 This project involves React.js for the frontend and Express.js for the backend. Ensure you have the following installed before starting:
 
 Node.js:
-Required for managing dependencies and running the development servers for both React and Express.
-👉 Download Node.js here.
+Required for managing dependencies and running the development servers for both React and Express. Download Node.js here.
 
 npm or yarn:
 Package managers for installing dependencies. npm comes bundled with Node.js.
@@ -132,8 +131,8 @@ While this project focuses on the frontend and backend, if you choose to impleme
 
 ### Steps
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/hemanthgitid/rbac.git
+   
+   git clone **https://github.com/hemanthgitid/rbac.git**
    
    cd rbac
 
@@ -187,3 +186,10 @@ rbac-frontend/
 │   └── README.md                     # Instructions for running the server
 ├── README.md                         # Project overview
 
+
+### Contact
+
+1. Developer: **HemanthKumar R**
+2. Email: **hemanthkumarr563@gmail.com**
+3. GitHub: **https://github.com/hemanthgitid**
+4. LinkedIn: **https://linkedin.com/in/hemanth-kumar-r-b87a7324a/**
